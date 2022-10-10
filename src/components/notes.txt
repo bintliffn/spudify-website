@@ -1,0 +1,5 @@
+just a file for holding notes on the various changes/updates needed from the tutorial.
+
+1) 'Switch' is now 'Routes' in modern React //index.js
+2)npm i -s react-dom@16.7.0-alpha.0 needs to be ran
+3)
