@@ -11,9 +11,10 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
         <Routes>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact element={<Navbar />}>
+            <Route index element={<Home />} />
+          </Route>
         </Routes>
       </Router>
     </>
