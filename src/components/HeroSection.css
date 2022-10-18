@@ -19,9 +19,11 @@ video {
   }
   
   .hero-container > h1 {
+    transition: all 1s;
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .hero-container > p {
@@ -30,6 +32,14 @@ video {
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
+  }
+
+  .hero-container > h1 > i{
+    color:#1db954;
+    font-weight: 50;
+  }
+  .show{
+    opacity: 1;
   }
   
   .hero-btns {

@@ -3,27 +3,34 @@ import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
 
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll(".hero-container");
+hiddenElements.forEach((el) => observer.observe(el));
+
 function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>
+        Listening <i color="#1db954"> Redefined</i>.
+      </h1>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          GET STARTED
-        </Button>
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-          onClick={console.log("hey")}
-        >
-          WATCH TRAILER <i className="far fa-play-circle" />
+          LEARN MORE
         </Button>
       </div>
     </div>
