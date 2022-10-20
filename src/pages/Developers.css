@@ -1,16 +1,27 @@
 body {
     background-color: black;
 }
-
+/*td is the data in the cells*/
 .center > tr > td{
 color: white;
+padding: 10px;
 }
-
+/*th are the column titles*/
 .center > tr > th{
     color: #1db954;
+}
+
+.title > table > caption{
+    color: #1db954;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Gotham;
+    font-variant: small-caps;
+    padding-bottom: 5px;
 }
 
 .center{
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
 }
