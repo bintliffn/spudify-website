@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Developers from "./pages/Developers";
 import Documentation from "./pages/Documentation";
-//import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Navbar />}>
             <Route index element={<Home />} />
+            <Route path="/Home" index element={<Home />} />
             <Route path="/developers" index element={<Developers />} />
             <Route path="/Documentation" index element={<Documentation />} />
           </Route>

@@ -1,27 +1,45 @@
 body {
-    background-color: black;
+  background-color: black;
 }
+
 /*td is the data in the cells*/
-.center > tr > td{
-color: white;
-padding: 10px;
+.center > tr > td {
+  color: white;
+  padding: 10px;
 }
+
 /*th are the column titles*/
-.center > tr > th{
-    color: #1db954;
+.center > tr > th {
+  color: #1db954;
+  border: 1px;
+  border-color: white;
 }
 
-.title > table > caption{
-    color: #1db954;
-    font-size: 50px;
-    font-style: italic;
-    font-family: Gotham;
-    font-variant: small-caps;
-    padding-bottom: 5px;
+.title > table > th:first-of-type {
+  border-top-left-radius: 10px;
+  border-color: white;
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
 }
 
-.center{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
+.title > table > caption {
+  color: #1db954;
+  font-size: 50px;
+  font-style: italic;
+  font-family: Gotham;
+  font-variant: small-caps;
+  padding-bottom: 5px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
 }
