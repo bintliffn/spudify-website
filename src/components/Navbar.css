@@ -70,7 +70,7 @@
 
 .fa-bars:hover {
   color: #1db954;
-  border-bottom: 4px solid #1C1B1B;
+  border-bottom: 4px solid #1c1b1b;
 }
 
 .nav-links-mobile {
@@ -144,12 +144,12 @@
   .fa-times:hover {
     color: #1db954;
     font-size: 1.9rem;
-    border-bottom: 4px solid #1C1B1B;
+    border-bottom: 4px solid #1c1b1b;
   }
 
   .nav-links-mobile {
     display: block;
-    text-align: center ;
+    text-align: center;
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;

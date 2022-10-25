@@ -33,6 +33,9 @@ function HeroSection() {
           LEARN MORE
         </Button>
       </div>
+      <div className="sample">
+        <p>Description of the home screen placeholder yadayadayada</p>
+      </div>
     </div>
   );
 }

@@ -35,7 +35,8 @@ tr:last-of-type td:last-of-type {
   font-style: italic;
   font-family: Gotham;
   font-variant: small-caps;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
 
 .center {
