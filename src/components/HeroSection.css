@@ -6,6 +6,15 @@ video {
   z-index: -1;
 }
 
+.sample{
+  position: relative;
+  top: 400px;
+  background-color: black;
+  width:100%;
+  height: 200px;
+  color:#1db954;
+}
+
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 100vh;
