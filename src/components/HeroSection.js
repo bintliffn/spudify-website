@@ -34,7 +34,33 @@ function HeroSection() {
         </Button>
       </div>
       <div className="sample">
-        <p>Description of the home screen placeholder yadayadayada</p>
+        <table className="screens">
+          <tr>
+            <th>Home Screen</th>
+            <th>Recommendations</th>
+            <th>View Your Top Songs and Artists!</th>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="images\figma.PNG"
+                alt="This is supposed to be the figma"
+              ></img>
+            </td>
+            <td>
+              <img
+                src="images\figma.PNG"
+                alt="This is supposed to be the figma"
+              ></img>
+            </td>
+            <td>
+              <img
+                src="images\figma.PNG"
+                alt="This is supposed to be the figma"
+              ></img>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
   );
