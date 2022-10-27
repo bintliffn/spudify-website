@@ -6,24 +6,24 @@ video {
   z-index: -1;
 }
 
-.sample{
+.sample {
   position: relative;
-  top: 400px;
+  top: 500px;
   background-color: black;
-  width:100%;
-  height: 500px;
-  color:#1db954;
+  width: 100%;
+  height: 600px;
+  color: #1db954;
 }
-.sample > .screens{
+.sample > .screens {
   margin-left: auto;
   margin-right: auto;
 }
 
-.screens > th{
-  font-size: large;
+.screens > tr > th {
+  font-size: 25px;
 }
 
-.screens > tr > td > img{
+.screens > tr > td > img {
   width: 400px;
   height: 400px;
   padding-right: 80px;

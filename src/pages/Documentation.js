@@ -13,7 +13,7 @@ export default function Documentation() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Spudify Github Repository
+          Spudify Github
         </a>
       </p>
       <h2>Requirements</h2>
