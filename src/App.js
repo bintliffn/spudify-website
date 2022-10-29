@@ -9,7 +9,7 @@ import Documentation from "./pages/Documentation";
 function App() {
   return (
     <>
-      <Router basename="/spudify-website/">
+      <Router basename="/spudify-website">
         <Routes>
           <Route path="/" exact element={<Navbar />}>
             <Route index element={<Home />} />
