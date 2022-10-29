@@ -11,7 +11,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" exact element={<Navbar />}>
+          <Route path="/spudify-website" exact element={<Navbar />}>
             <Route index element={<Home />} />
             <Route path="/Home" index element={<Home />} />
             <Route path="/developers" index element={<Developers />} />
