@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spudify-website/static/css/main.6ad70f04.css",
+    "main.js": "/spudify-website/static/js/main.5f020337.js",
+    "index.html": "/spudify-website/index.html",
+    "main.6ad70f04.css.map": "/spudify-website/static/css/main.6ad70f04.css.map",
+    "main.5f020337.js.map": "/spudify-website/static/js/main.5f020337.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ad70f04.css",
+    "static/js/main.5f020337.js"
+  ]
+}
