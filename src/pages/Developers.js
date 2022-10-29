@@ -10,14 +10,14 @@ function Developers() {
         <caption>Developer Information</caption>
         <tr>
           <th>Name</th>
-          <th>Roles</th>
+          <th>Role</th>
           <th>Email</th>
           <th>LinkedIn</th>
           <th>Github</th>
         </tr>
         <tr>
           <td>Nathanial Bintliff </td>
-          <td>Project Owner, App Developer, Documentation</td>
+          <td>Team Lead</td>
           <td>nbintlif@students.kennesaw.edu</td>
           <td>
             <a
@@ -40,7 +40,7 @@ function Developers() {
         </tr>
         <tr>
           <td>AJ Christian</td>
-          <td>Website Developer,App Developer, Documentation</td>
+          <td>Website Development, Documentation</td>
           <td>achris54@students.kennesaw.edu</td>
           <td>
             <a
@@ -63,7 +63,7 @@ function Developers() {
         </tr>
         <tr>
           <td>Tyler Holmes</td>
-          <td>App Developer, Database Management</td>
+          <td>App Development</td>
           <td> tholme60@students.kennesaw.edu</td>
           <td>
             <a
@@ -86,7 +86,7 @@ function Developers() {
         </tr>
         <tr>
           <td>Jimmy Nguyen</td>
-          <td>App Developer, Web Developer, Database Management</td>
+          <td>Database Management</td>
           <td> jnguy127@students.kennesaw.edu</td>
           <td>
             <a
@@ -109,7 +109,7 @@ function Developers() {
         </tr>
         <tr>
           <td>Alex Tawara</td>
-          <td>App Developer, Documentation</td>
+          <td>App Development</td>
           <td>atawara@students.kennesaw.edu</td>
           <td>
             <a

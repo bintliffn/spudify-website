@@ -6,9 +6,8 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.developers,
+.documentation {
   display: flex;
   height: 90vh;
   align-items: center;
