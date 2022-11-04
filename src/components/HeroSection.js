@@ -20,7 +20,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/video-1.mp4" autoPlay loop muted />
+      <video src="\videos\video-1.mp4" autoPlay loop muted />
       <section className="topSection" align="center">
         <h1>
           Listening <i color="#1db954"> Redefined</i>.
@@ -33,27 +33,27 @@ function HeroSection() {
         <div className="sample">
           <table className="screens">
             <tr>
-              <th>Home Screen</th>
-              <th>Recommendations</th>
+              <th>Interactive Home Screen!</th>
+              <th>Generate Playlists!</th>
               <th>View Your Top Songs and Artists!</th>
             </tr>
             <tr>
               <td>
                 <img
-                  src="images\figma.PNG"
-                  alt="This is supposed to be the figma"
+                  src="images\Home.PNG"
+                  alt="Home Screen"
                 ></img>
               </td>
               <td>
                 <img
-                  src="images\figma.PNG"
-                  alt="This is supposed to be the figma"
+                  src="images\GennedPlaylist.PNG"
+                  alt="Generated Playlist"
                 ></img>
               </td>
               <td>
                 <img
-                  src="images\figma.PNG"
-                  alt="This is supposed to be the figma"
+                  src="images\TopSnA.PNG"
+                  alt="Top Songs and Artists"
                 ></img>
               </td>
             </tr>

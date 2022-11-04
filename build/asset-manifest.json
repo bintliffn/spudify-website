@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/spudify-website/static/css/main.6ad70f04.css",
-    "main.js": "/spudify-website/static/js/main.aec838fb.js",
+    "main.css": "/spudify-website/static/css/main.1afd2e69.css",
+    "main.js": "/spudify-website/static/js/main.db441f7c.js",
     "index.html": "/spudify-website/index.html",
-    "main.6ad70f04.css.map": "/spudify-website/static/css/main.6ad70f04.css.map",
-    "main.aec838fb.js.map": "/spudify-website/static/js/main.aec838fb.js.map"
+    "main.1afd2e69.css.map": "/spudify-website/static/css/main.1afd2e69.css.map",
+    "main.db441f7c.js.map": "/spudify-website/static/js/main.db441f7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ad70f04.css",
-    "static/js/main.aec838fb.js"
+    "static/css/main.1afd2e69.css",
+    "static/js/main.db441f7c.js"
   ]
 }
