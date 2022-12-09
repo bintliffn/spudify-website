@@ -6,6 +6,16 @@ export default function Documentation() {
   return (
     <div className="info">
       <h1>Documentation</h1>
+      <h2>Project Final Report</h2>
+      <p align="center">
+        <a
+          href="https://docs.google.com/document/d/1DTNDQIwiajklpjbcsfhiMEr7cIX9JIa4/edit"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Final Report
+        </a>
+      </p>
       <h2>Project Github Repository</h2>
       <p align="center">
         <a
