@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/spudify-website/static/css/main.f11fd7e4.css",
-    "main.js": "/spudify-website/static/js/main.61ecff12.js",
+    "main.js": "/spudify-website/static/js/main.95f5101f.js",
     "index.html": "/spudify-website/index.html",
     "main.f11fd7e4.css.map": "/spudify-website/static/css/main.f11fd7e4.css.map",
-    "main.61ecff12.js.map": "/spudify-website/static/js/main.61ecff12.js.map"
+    "main.95f5101f.js.map": "/spudify-website/static/js/main.95f5101f.js.map"
   },
   "entrypoints": [
     "static/css/main.f11fd7e4.css",
-    "static/js/main.61ecff12.js"
+    "static/js/main.95f5101f.js"
   ]
 }
